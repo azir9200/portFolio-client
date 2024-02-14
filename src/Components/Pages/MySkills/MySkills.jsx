@@ -2,25 +2,24 @@
 
 const MySkills = () => {
   return (
-    <div className="mx-auto text-center md:w-4/12 my-8">
-    
-      <h2>Chef de Rang
-Viking River Cruise</h2>
-<h2>    
-17/05/2017 – 07/01/2024 Douro River, Gaia. , Portugal
+    <div className="mx-auto lg:flex my-6">
 
--Take-care Viking Guest during their holidays with our company.
-
--Collaborated with colleagues to ensure a well-coordinated effort in maintaining a tidy and inviting restaurant and bar environment.
-
--Organize and prepare bar with full speed service.
-
--Provided exceptional service by promptly and courteously serving food and drinks to Viking guest.
-
--Demonstrated the ability to handle multiple tasks efficiently during peak hours, ensuring a high level of service even during busy periods.</h2>
+<div className="hero min-h-screen bg-base-200">
+  <div className="hero-content flex-col lg:flex-row">
+  <div className=" w-2/5  bg-sky-300 m-4 p-20  rounded-full"> 
+ <h2 className="text-4xl flex justify-center font-semibold ">My Skills</h2>
+  </div>
    
+    
+    <div className="w-3/5 bg-lime-100 p-4 rounded-xl "> 
+ <p className="py-6"> <span className="text-2xl "> PROGRAMMING LANGUAGES : </span> HTML, CSS, Javascript </p>
+ <p className="py-6"> <span className="text-2xl">  FRAMEWORKS/LIBRARIES: </span>React | Express | Node | Tailwind CSS | React Native  </p>
+ <p className="py-6"> <span className="text-2xl"> DATABASES: </span>  MongoDB  </p>
+ <p className="py-6"> <span className="text-2xl"> TOOLS & PLATFORMS: </span> Git, GitHub, Vercel, Firebase, </p>
 
-
+ </div>
+  </div>
+</div>
 
 
     </div>
