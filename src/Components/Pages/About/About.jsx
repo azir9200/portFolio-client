@@ -1,31 +1,55 @@
-
-
-
 const About = () => {
   return (
+    <div className="flex-col lg:flex-row bg-gradient-to-r from-teal-400 via-cyan-500 to-blue-600 min-h-screen">
+      <div className="text-center py-20">
+        <h2 className="text-5xl font-extrabold text-white">About Myself</h2>
+      </div>
 
-    <div className="flex-col lg:flex-row  bg-base-200 border border-sky-200">
-   
-     
-     <h2 className="text-4xl text-center justify-center items-center  font-semibold text-slate-600 py-20 ">About  Myself </h2>
-     
-     
-      <div className="bg-lime-100 p-8  border border-b-slate-300">
-        
+      <div className="lg:max-w-4xl mx-auto bg-white p-8 border-t-4 border-cyan-500 rounded-lg shadow-lg">
+        {/* First Section */}
+        <div className="space-y-6 mb-12">
+          <h1 className="text-lg lg:text-xl font-semibold text-gray-700">
+            I am Azir Uddin, a passionate Frontend Developer with a strong
+            foundation in creating dynamic, responsive, and user-friendly
+            websites. Born in Bangladesh and having lived in England, Portugal,
+            Switzerland, and now in Ireland. I bring a unique blend of global
+            perspective and diverse experiences to my work.
+          </h1>
+        </div>
 
-    
-        <h1 className="bg-orange-50 lg:mx-12 md:p-8 lg:px-16 p-6 "> I born in Bangladesh, in January 2011 I went to England for continue my education.I was in Portugal in 2015 to end of the last year and work in a different sector.</h1>
+        {/* Second Section */}
+        <div className="space-y-6 mb-12">
+          <p className="text-lg lg:text-xl font-medium text-gray-700">
+            My journey into web development began with a deep curiosity about
+            how websites are built and the impact they can have on users. I am
+            proficient in HTML, CSS, JavaScript, and modern frontend frameworks
+            such as React and Next.js. I focus on creating clean, maintainable,
+            and scalable code while ensuring an excellent user experience across
+            all devices.
+          </p>
+        </div>
 
-        <p className="bg-amber-50 sm:mx-8 sm:px-6 md:p-8 lg:mx-12 lg:px-16 p-6 ">I am always looking for opportunity to learn and gain more knowledge and experience. I wish to continue my learning process always. </p>  
-  
+        {/* Third Section */}
+        <div className="space-y-6">
+          <p className="text-lg lg:text-xl font-medium text-gray-700">
+            As a developer, I am continuously learning and evolving. I am always
+            exploring new tools, frameworks, and best practices to stay
+            up-to-date with industry trends.
+          </p>
+        </div>
 
-        
-      <p className="bg-emerald-50 lg:mx-12 md:p-8 lg:px-16 p-6">  I am passionate about what I do and possess a steady source of motivation that drives me to always do my best. Recognized for excellence in cruise service and adeptness in optimizing restaurant operations to ensure exceptional guest experiences. By combining my managerial expertise with newfound tech skills, I am determined to introduce innovative solutions that enhance both service quality and operational efficiency in the hospitality sector.</p>
-        
-      </div>   
-  
-  </div>
-   
+        {/* Fourth Section */}
+        <div className="space-y-6">
+          <p className="text-lg lg:text-xl font-medium text-gray-700">
+            Outside of coding, I enjoy collaborating with teams, brainstorming
+            ideas, and finding creative solutions to problems. I’m excited about
+            the opportunity to contribute to a forward-thinking company where I
+            can continue growing as a developer and help create amazing digital
+            experiences.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
 
